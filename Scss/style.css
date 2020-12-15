@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .homeBanner {
@@ -283,6 +283,12 @@ input[type=text]:focus {
     position: absolute;
     width: 100%;
   }
+  h1 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 900px) {
@@ -323,6 +329,12 @@ input[type=text]:focus {
     margin-top: -700px;
     position: absolute;
     width: 100%;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  p {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
