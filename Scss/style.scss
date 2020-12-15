@@ -297,7 +297,20 @@ input[type=text]:focus {
     width: 90%;
   }
 
+  .homeBanner {
+    width: 100%;
+    height: 400px;
 
+    object-fit: cover;
+    z-index: 2;
+  }
+
+  .navBarPers {
+    background-color: transparent;
+    margin-top: -400px;
+    position: absolute;
+    width: 100%;
+  }
 }
 
 @media (min-width: 900px) {
@@ -331,5 +344,18 @@ input[type=text]:focus {
     width: 90%;
   }
 
+  .homeBanner {
+    width: 100%;
+    height: 800px;
 
+    object-fit: cover;
+    z-index: 2;
+  }
+
+  .navBarPers {
+    background-color: transparent;
+    margin-top: -800px;
+    position: absolute;
+    width: 100%;
+  }
 }
